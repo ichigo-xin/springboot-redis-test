@@ -23,5 +23,8 @@ public class IndexController {
         return value;
     }
 
-
+    @GetMapping("/hello")
+    public String hello() {
+        return "hello ichigo-xin";
+    }
 }
